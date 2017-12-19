@@ -1,2 +1,3 @@
 # demmys.github.io
-demmys wiki
+
+[demmys wiki](https://demmys.github.io/)
