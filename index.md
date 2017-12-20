@@ -69,6 +69,7 @@ brew install kotlin
 curl -s "https://get.sdkman.io" | bash
 sdk install kotlin
 ```
+see: http://sdkman.io/index.html
 
 #### Ubuntu
 
