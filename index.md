@@ -3,6 +3,7 @@ demmy.jp Wiki
 
 便利なツール
 -----
+* [ターミナル用のカラースキーマを作成](http://ciembor.github.io/4bit/#)
 * [文字数カウンター](https://demmy.jp/utilities/word_counter.html#!?cs=true)
 * [フラットデザインっぽいカラーパレット](http://flatuicolors.com/)
 * [半角英数字を全角に変換](https://kujirahand.com/web-tools/ZenHan.php)
