@@ -57,6 +57,19 @@ $ jenv add /usr/lib/jvm/java-8-oracle/
 $ jenv global 1.8
 ```
 
+#### Kotlin
+
+##### macOSにインストール
+```bash
+brew install kotlin
+```
+
+##### Ubuntuにインストール
+```bash
+curl -s "https://get.sdkman.io" | bash
+sdk install kotlin
+```
+
 #### Ubuntu
 
 ##### aptitudeパッケージの検索
