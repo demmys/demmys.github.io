@@ -10,12 +10,7 @@ demmy.jp Wiki
 
 Tips
 -----
-
-### 開発関連
-
-#### Vim
-
-##### macOSでlua付きのVimをインストール
+#### macOSでlua付きのVimをインストール
 ```bash
 $ brew install lua
 $ brew install vim --with-lua
@@ -23,22 +18,18 @@ $ vim --version | grep lua
 +cursorshape       +lua               +ruby              -X11
 ```
 
-##### Ubuntuでlua付きのVimをインストール
+#### Ubuntuでlua付きのVimをインストール
 ```bash
 $ sudo apt-get install vim-gnome
 ```
 
-#### Tmux
-
-##### Ubuntuで2.7をインストール
+#### UbuntuでTmux2.7をインストール
 ```bash
 $ sudo add-apt-repository ppa:pi-rho/dev
 ```
 see: https://launchpad.net/~pi-rho/+archive/ubuntu/dev
 
-#### Java
-
-##### macOSにインストール
+#### macOSにJava(JDK)をインストール
 ```bash
 $ brew install caskroom/cask/brew-cask
 $ brew cask install java8
@@ -47,7 +38,7 @@ $ jenv add $(/usr/libexec/java_home -v 1.8)
 $ jenv global 1.8
 ```
 
-##### Ubuntuにインストール
+#### UbuntuにJava(JDK)をインストール
 ```bash
 $ sudo add-apt-repository ppa:webupd8team/java
 $ sudo apt-get update
@@ -57,31 +48,20 @@ $ jenv add /usr/lib/jvm/java-8-oracle/
 $ jenv global 1.8
 ```
 
-#### Kotlin
-
-##### macOSにインストール
-```bash
-brew install kotlin
-```
-
-##### Ubuntuにインストール
+#### UbuntuにKotlinをインストール
 ```bash
 curl -s "https://get.sdkman.io" | bash
 sdk install kotlin
 ```
 see: http://sdkman.io/index.html
 
-#### Ubuntu
-
-##### aptitudeパッケージの検索
+#### Ubuntu aptパッケージの検索
 https://launchpad.net/
 
-##### PPAの検索
+#### Ubuntu PPAの検索
 https://launchpad.net/ubuntu/+ppas
 
-#### Windows Subsystem for Linux
-
-##### pbcopy/pbpaste
+#### WSLでpbcopy/pbpasteを使う
 ```bash
 # @Windows
 $ cinst pasteboard
