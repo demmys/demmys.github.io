@@ -3,6 +3,7 @@ demmy.jp Wiki
 
 便利なツール
 -----
+* [Web上でクラス図を作成](https://www.planttext.com/)
 * [ターミナル用のカラースキーマを作成](http://ciembor.github.io/4bit/#)
 * [文字数カウンター](https://demmy.jp/utilities/word_counter.html#!?cs=true)
 * [フラットデザインっぽいカラーパレット](http://flatuicolors.com/)
