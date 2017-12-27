@@ -64,8 +64,8 @@ $ jenv global 1.8
 
 #### UbuntuにKotlinをインストール
 ```bash
-curl -s "https://get.sdkman.io" | bash
-sdk install kotlin
+$ curl -s "https://get.sdkman.io" | bash
+$ sdk install kotlin
 ```
 see: http://sdkman.io/index.html
 
@@ -85,5 +85,50 @@ alias pbcopy='pbcopy.exe'
 alias pbpaste='pbpaste.exe'
 ```
 see: https://github.com/ghuntley/pasteboard
+
+#### macOSでnginx+php-fpmを構築
+phpenvでインストールした場合はphp-fpmも一緒にビルドされている
+```bash
+$ brew install nginx
+$ cd $(dirname $(phpenv which php-fpm))/..
+$ cp etc/php-fpm.conf.default etc/php-fpm.conf
+$ vim etc/php-fpm.conf
+$ diff etc/php-fpm.conf.default etc/php-fpm.conf
+17c17
+< ;pid = run/php-fpm.pid
+---
+> pid = run/php-fpm.pid
+81c81
+< ;daemonize = yes
+---
+> daemonize = yes
+$ cp etc/php-fpm.d/www.conf.default etc/php-fpm.d/www.conf
+$ cat > $HOME/Library/LaunchAgents/phpenv.php-fpm.plist
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Label</key>
+        <string>phpenv.php-fpm.7.1.9</string>
+        <key>RunAtLoad</key>
+        <true/>
+        <key>KeepAlive</key>
+        <false/>
+        <key>ProgramArguments</key>
+        <array>
+            <string>$YOUR_HOME/.anyenv/envs/phpenv/versions/$YOUR_PHP_VERSION/sbin/php-fpm</string>
+            <string>--nodaemonize</string>
+        </array>
+    </dict>
+</plist>
+$ launchctl load $HOME/Library/LaunchAgents/phpenv.php-fpm.plist
+$ cat > /usr/local/etc/nginx/servers/php-fpm
+~~~
+$ brew services nginx start
+```
+
+#### macOSでLISTENしているTCPポートの情報を表示
+```bash
+$ lsof -nP -iTCP -sTCP:LISTEN
+```
 
 [このページを編集](https://github.com/demmys/demmys.github.io/edit/master/index.md)
