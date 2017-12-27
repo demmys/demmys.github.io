@@ -11,12 +11,18 @@ demmy.jp Wiki
 
 Tips
 -----
-#### macOSの基本的なGUI環境
+#### macOSの基本的な環境構築
 | 用途 | ソフトウェア |
 |:--:|:--:|
-| ターミナルエミュレータ | [iTerm2](https://www.iterm2.com/) |
 | トラックパッド機能拡張 | [BetterTouchTool](https://www.boastr.net/) |
 | 日本語IME | [Google日本語入力](https://www.google.co.jp/ime/) |
+| ターミナルエミュレータ | [iTerm2](https://www.iterm2.com/) |
+| ターミナル基本コマンド | [XCode](https://itunes.apple.com/jp/app/xcode/id497799835?mt=12), [Command Line Tools](https://developer.apple.com/download/more/) |
+| パッケージマネージャ | [Homebrew](https://brew.sh/index_ja.html) |
+| 言語環境バージョンマネージャ | [anyenv](https://github.com/riywo/anyenv) |
+| パッケージマネージャ | [Homebrew](https://brew.sh/index_ja.html) |
+| Linuxコマンド | `brew install wget tree` |
+| 起動設定 | [dotfiles](https://github.com/demmys/dotfiles) |
 
 #### macOSでlua付きのVimをインストール
 ```bash
