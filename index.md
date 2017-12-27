@@ -11,6 +11,13 @@ demmy.jp Wiki
 
 Tips
 -----
+#### macOSの基本的なGUI環境
+| 用途 | ソフトウェア |
+|:--:|:--:|
+| ターミナルエミュレータ | [iTerm2](https://www.iterm2.com/) |
+| トラックパッド機能拡張 | [BetterTouchTool](https://www.boastr.net/) |
+| 日本語IME | [Google日本語入力](https://www.google.co.jp/ime/) |
+
 #### macOSでlua付きのVimをインストール
 ```bash
 $ brew install lua
