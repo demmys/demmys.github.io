@@ -21,7 +21,7 @@ Tips
 | パッケージマネージャ | [Homebrew](https://brew.sh/index_ja.html) |
 | 言語環境バージョンマネージャ | [anyenv](https://github.com/riywo/anyenv) |
 | パッケージマネージャ | [Homebrew](https://brew.sh/index_ja.html) |
-| Linuxコマンド | `brew install wget tree` |
+| Linuxコマンド | `brew install wget tree rlwrap` |
 | 起動設定 | [dotfiles](https://github.com/demmys/dotfiles) |
 
 #### macOSでlua付きのVimをインストール
