@@ -126,6 +126,12 @@ $ cat > /usr/local/etc/nginx/servers/php-fpm
 $ brew services nginx start
 ```
 
+#### macOSでsshfsを利用
+```bash
+$ brew tap caskroom/cask
+$ brew install caskroom/cask/osxfuse sshfs
+```
+
 #### macOSでLISTENしているTCPポートの情報を表示
 ```bash
 $ lsof -nP -iTCP -sTCP:LISTEN
