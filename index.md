@@ -1,6 +1,10 @@
 demmy.jp Wiki
 =====
 
+娯楽
+-----
+* [ゴキブリポーカーロイヤルのルール](game/cockroach_poker_royal.md)
+
 便利なツール
 -----
 * [Web上でクラス図を作成](https://www.planttext.com/)
