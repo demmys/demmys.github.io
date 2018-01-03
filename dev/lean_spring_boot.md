@@ -12,6 +12,13 @@ Kotlin + Spring Framework + Spring BootでREST APIサーバを構築するのが
   * 最小限のSpring Boot Webアプリケーションについて、アノテーションの詳細までわかりやすく説明されている
 * [Spring MVCのコントローラでの戻り値いろいろ](https://qiita.com/tag1216/items/3680b92cf96eb5a170f0)
   * Spring MVCのコントローラで使えるレスポンスの指定の仕方についてわかりやすく説明されている
+* [Spring MVC(+Spring Boot)上での静的リソースへのアクセスを理解する](https://qiita.com/kazuki43zoo/items/e12a72d4ac4de418ee37)
+ * サーブレットについてわかりやすく説明されている
+* [Kotlin + Spring BootでREST APIを作ってみる](https://qiita.com/ARBALEST000/items/0e0ef5074ae110120ac7)
+ * Swagger UIをSpring BootのWebアプリケーションでサーブする方法についてわかりやすく説明されている
+ * 実際に使用するには別途[Spring Bootでwebjarのパスを捌けるようにする](#Spring Bootでwebjarのパスを捌けるようにする)設定が必要
+* [Spring FrameworkのControllerの基本的なアノテーション](http://morizyun.github.io/java/spring-framework-controller-annotation.html)
+ * コントローラで使用される基本的なアノテーションについてわかりやすく説明されている
 
 ## Tips
 
@@ -40,3 +47,5 @@ class Web : WebMvcConfigurerAdapter() {
 ```
 
 source: http://hosomi.github.io/gitbook/_book/java/webjars.html
+
+[このページを編集](https://github.com/demmys/demmys.github.io/edit/master/dev/lean_spring_boot.md)
