@@ -1,6 +1,10 @@
 demmy.jp Wiki
 =====
 
+開発
+-----
+* [Spring Bootを知る](dev/lean_spring_boot.md)
+
 娯楽
 -----
 * [ゴキブリポーカーロイヤルのルール](game/cockroach_poker_royal.md)
