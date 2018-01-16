@@ -16,6 +16,7 @@ demmy.jp Wiki
 * [文字数カウンター](https://demmy.jp/utilities/word_counter.html#!?cs=true)
 * [フラットデザインっぽいカラーパレット](http://flatuicolors.com/)
 * [半角英数字を全角に変換](https://kujirahand.com/web-tools/ZenHan.php)
+* [適当なサイズのサンプル画像を用意](http://placekitten.com/)
 
 Tips
 -----
