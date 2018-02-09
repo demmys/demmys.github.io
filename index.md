@@ -17,6 +17,7 @@ demmy.jp Wiki
 * [フラットデザインっぽいカラーパレット](http://flatuicolors.com/)
 * [半角英数字を全角に変換](https://kujirahand.com/web-tools/ZenHan.php)
 * [適当なサイズのサンプル画像を用意](http://placekitten.com/)
+* [GitHubで使える絵文字の一覧](https://www.webpagefx.com/tools/emoji-cheat-sheet/)
 
 Tips
 -----
