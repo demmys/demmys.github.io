@@ -147,4 +147,7 @@ $ brew install caskroom/cask/osxfuse sshfs
 $ lsof -nP -iTCP -sTCP:LISTEN
 ```
 
+#### GitHubの二段階認証を有効化した状態でhttpsでpushするためのトークンを生成
+https://github.com/settings/tokens
+
 [このページを編集](https://github.com/demmys/demmys.github.io/edit/master/index.md)
