@@ -47,11 +47,30 @@ $ vim --version | grep lua
 $ sudo apt-get install vim-gnome
 ```
 
+#### CentOSでlua付きのVimをインストール
+```bash
+$ sudo yum install lua-devel ncurses-devel automake
+$ git clone https://github.com/vim/vim.git && cd vim
+$ ./configure --enable-multibyte --enable-luainterp --enable-fail-if-missing
+$ make
+$ sudo make install
+```
+
 #### UbuntuでTmux2.7をインストール
 ```bash
 $ sudo add-apt-repository ppa:pi-rho/dev
 ```
 see: https://launchpad.net/~pi-rho/+archive/ubuntu/dev
+
+#### CentOSでTmuxをインストール
+```bash
+$ sudo yum install libevent-devel automake
+$ git clone https://github.com/tmux/tmux.git && cd tmux
+$ sh autogen.sh
+$ ./configure
+$ make
+$ sudo make install
+```
 
 #### macOSにJava(JDK)をインストール
 ```bash
