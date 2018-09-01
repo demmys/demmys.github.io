@@ -33,3 +33,15 @@ Node.js + express.jsで認証・認可サーバを作る方法について調べ
   * appidの発行などを行えるユーザーの認証
   * Google AccountのOpenIDで認証
   * IDはメールアドレスでよさそう
+
+## 使えそうな情報
+* OAuth2ならいい感じにできるらしい
+  * [【Node.js】expressでOAuth2プロバイダーを作ろう](https://qiita.com/seapolis/items/5f866e58784baf54f54c)
+  * [express-oauth-server](https://www.npmjs.com/package/express-oauth-server)
+* いい感じにID生成できるライブラリ
+  * [nanoid](https://github.com/ai/nanoid)
+* Open ID Connectの説明
+  * [[前編] IDトークンが分かれば OpenID Connect が分かる](https://qiita.com/TakahikoKawasaki/items/8f0e422c7edd2d220e06#4-json-web-encryption-jwe)
+* Open ID Connectサーバライブラリ
+  * [Node.jsでOpenID ConnectのOPとRPを実装してみた](https://qiita.com/moomooya/items/97864e1078a3cc204c17)
+  * [node-oidc-provider](https://github.com/panva/node-oidc-provider)
