@@ -1,4 +1,4 @@
-# Spring Bootを知る
+# 20180101 - Spring Bootを知る
 
 Kotlin + Spring Framework + Spring BootでREST APIサーバを構築するのがイケてるにおいがするので調べる。
 
