@@ -28,7 +28,7 @@ Node.js + express.jsで認証・認可サーバを作る方法について調べ
 * アプリ認証 (appid)
   * 自分が発行したアプリであることを証明する認証と認可が一緒になったID
   * 管理者用画面でsecretと一緒に発行
-  * これいつ認証するんだ...?
+  * access token発行時に認証
 * 管理者認証 (adminid)
   * appidの発行などを行えるユーザーの認証
   * Google AccountのOpenIDで認証
