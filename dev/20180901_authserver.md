@@ -15,7 +15,7 @@ Node.js + express.jsで認証・認可サーバを作る方法について調べ
 * 2段階認証
 * Touch IDなどの生体認証をパスワード認証の代わりに使用
 
-## 構成
+## 認証の構成
 パスワード認証をベースとしたOpen ID Connectでできる気がする。
 3種類のユーザー認証が必要になりそう。
 
@@ -34,6 +34,19 @@ Node.js + express.jsで認証・認可サーバを作る方法について調べ
   * Google AccountのOpenIDで認証
   * IDはメールアドレスでよさそう
 
+## サーバの構成
+* gateway
+  * access tokenの解決・JWTの発行
+  * 各APIへのプロキシ
+* userfe
+  * ログイン画面の提供
+* userpf
+  * access tokenの発行
+  * ユーザ情報の管理
+  * ユーザー情報設定APIの提供
+
+fe, app -> gateway -> pf
+
 ## 使えそうな情報
 * OAuth2ならいい感じにできるらしい
   * [【Node.js】expressでOAuth2プロバイダーを作ろう](https://qiita.com/seapolis/items/5f866e58784baf54f54c)
@@ -45,3 +58,5 @@ Node.js + express.jsで認証・認可サーバを作る方法について調べ
 * Open ID Connectサーバライブラリ
   * [Node.jsでOpenID ConnectのOPとRPを実装してみた](https://qiita.com/moomooya/items/97864e1078a3cc204c17)
   * [node-oidc-provider](https://github.com/panva/node-oidc-provider)
+
+[このページを編集](https://github.com/demmys/demmys.github.io/edit/master/dev/20180901_authserver.md)
