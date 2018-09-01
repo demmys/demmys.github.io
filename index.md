@@ -3,7 +3,8 @@ demmy.jp Wiki
 
 開発
 -----
-* [Spring Bootを知る](dev/lean_spring_boot.md)
+* [20180101 - Spring Bootを知る](dev/lean_spring_boot.md)
+* [20180901 - 認証・認可サーバを作る](dev/20180901_authserver.md)
 
 娯楽
 -----
