@@ -59,4 +59,8 @@ fe, app -> gateway -> pf
   * [Node.jsでOpenID ConnectのOPとRPを実装してみた](https://qiita.com/moomooya/items/97864e1078a3cc204c17)
   * [node-oidc-provider](https://github.com/panva/node-oidc-provider)
 
+## node-oicd-provider
+とりあえず使ってみる。
+https://github.com/panva/node-oidc-provider-example/blob/master/00-oidc-minimal/index.js
+
 [このページを編集](https://github.com/demmys/demmys.github.io/edit/master/dev/20180901_authserver.md)
